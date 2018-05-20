@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $sm;
+  background: $tertiary;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+.err {
+  color: darkred;
+  font-style: italic;
+  margin: 1rem;
+  text-shadow: white;
+  font-weight: bolder;
+}
+.isActive {
+  color: red;
+}
+footer {
+  clear: both;
+  display: block;
+  margin-top: 3rem;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+}
